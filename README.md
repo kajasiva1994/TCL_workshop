@@ -119,7 +119,7 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 
 
 - After proc update, sdc to .timing is proper
-![image](https://github.com/user-attachments/assets/94c34815-9fd3-45c6-9443-4bf609a6e74d)
+![image](https://github.com/user-attachments/assets/9eda5f2f-c206-4746-80c6-d4bd2aacdc23)
 
 
 - Creation of .conf file for Timnig run and sourcing it
@@ -142,6 +142,7 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 ![image](https://github.com/user-attachments/assets/0a145faf-c885-4db5-9fba-9c1cd83667a9)
 
 ### ********* QOR Dash board creation completed *********
+
 
 
 ## Result: QOR Prelayout Timing Summary 
