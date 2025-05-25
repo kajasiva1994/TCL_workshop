@@ -146,7 +146,7 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 
 
 ## Result: QOR Prelayout Timing Summary 
-![image](https://github.com/user-attachments/assets/cf8c7d9a-bd70-4a83-bc9d-15a187654b8d)
+![image](https://github.com/user-attachments/assets/3cc98f1f-4f3d-4066-b667-41a34a830e44)
 
 
 
