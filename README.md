@@ -69,7 +69,7 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 ![image](https://github.com/user-attachments/assets/393d68fe-bfc0-426a-99f0-ff688e435e86)
 ![image](https://github.com/user-attachments/assets/05d6f1bd-03fd-4e3d-8b88-32e7385b4b65)
 ![image](https://github.com/user-attachments/assets/7c478e11-74b7-4c47-91d9-b869a1f15ad5)
-![image](https://github.com/user-attachments/assets/62a8ec9c-510d-43c2-8938-3a7bc67269e4)
+
 
 - Output ports sdc formatting:
 ![image](https://github.com/user-attachments/assets/70a0d7b8-e343-43eb-b75c-e72edb65ef1d)
@@ -119,15 +119,17 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 
 
 - After proc update, sdc to .timing is proper
-![image](https://github.com/user-attachments/assets/6dbd6e00-de88-4abf-9c5c-1d55504a2071)
+![image](https://github.com/user-attachments/assets/94c34815-9fd3-45c6-9443-4bf609a6e74d)
+
 
 - Creation of .conf file for Timnig run and sourcing it
-![image](https://github.com/user-attachments/assets/6035f09e-ed2c-44a3-9d52-214530177daa)
+![image](https://github.com/user-attachments/assets/e69d9355-f8ce-43ce-b842-7ef3a53ad93b)
+
 
 - Timing analysis started and results info:
 ![image](https://github.com/user-attachments/assets/0eca00d9-8767-4347-9b0d-967f4caf54c9)
 
-![image](https://github.com/user-attachments/assets/b3851398-65af-4413-b32d-74805bc2c6df)
+![image](https://github.com/user-attachments/assets/b5f06b1c-2116-40f7-8458-d09ef9ae42ea)
 
 ### ********* Timnig analysis completed *********
 
@@ -143,7 +145,7 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 
 
                                      ********** QOR PRELAYOUT STA RESULT SUMMARY ****************
-![image](https://github.com/user-attachments/assets/13fa140c-6402-4657-ba0e-0979024f834c)
+![image](https://github.com/user-attachments/assets/cf8c7d9a-bd70-4a83-bc9d-15a187654b8d)
 
 
 
