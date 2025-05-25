@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/62a8ec9c-510d-43c2-8938-3a7bc67269e4)## <center>TCL Workshop</center> 
+## <center>TCL Workshop</center> 
 In this workshop using Yosys and OpenTimer tools with TCL (for initial interface shell used) based programming.
 Analyzed Timing reports in the dashboard after Synthesis and Timing checks on given design.
 
@@ -69,6 +69,7 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 ![image](https://github.com/user-attachments/assets/393d68fe-bfc0-426a-99f0-ff688e435e86)
 ![image](https://github.com/user-attachments/assets/05d6f1bd-03fd-4e3d-8b88-32e7385b4b65)
 ![image](https://github.com/user-attachments/assets/7c478e11-74b7-4c47-91d9-b869a1f15ad5)
+![image](https://github.com/user-attachments/assets/62a8ec9c-510d-43c2-8938-3a7bc67269e4)
 
 - Output ports sdc formatting:
 ![image](https://github.com/user-attachments/assets/70a0d7b8-e343-43eb-b75c-e72edb65ef1d)
@@ -114,7 +115,8 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 
 - Faced output ports open timing format issue creation, so updated proc to pick proper values 
   - **Reason for this failure:** I have dumped sdc in different order so based on that I created proc to pic proper values)
-![image](https://github.com/user-attachments/assets/00b3688a-1ca2-4f68-a10d-77b5e7b758af)
+![image](https://github.com/user-attachments/assets/def90145-02e4-43c0-8efe-91af380a0b71)
+
 
 - After proc update, sdc to .timing is proper
 ![image](https://github.com/user-attachments/assets/6dbd6e00-de88-4abf-9c5c-1d55504a2071)
@@ -123,7 +125,8 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 ![image](https://github.com/user-attachments/assets/6035f09e-ed2c-44a3-9d52-214530177daa)
 
 - Timing analysis started and results info:
-![image](https://github.com/user-attachments/assets/7cef9860-c0a1-4c74-933a-2cff0bd12e55)
+![image](https://github.com/user-attachments/assets/0eca00d9-8767-4347-9b0d-967f4caf54c9)
+
 ![image](https://github.com/user-attachments/assets/b3851398-65af-4413-b32d-74805bc2c6df)
 
 ### ********* Timnig analysis completed *********
