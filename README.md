@@ -8,7 +8,7 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 
 ## Module 1: Creating global unix file using shell scripting and to call TCL file
 
-- Starting Info: If no argv is there, it shoud provide info to user
+- Starting Info: If no argv is there, it shoud provide info to use
 ![image](https://github.com/user-attachments/assets/86f6226f-6654-4815-a151-ba6203c8b1fc)
 
 - Providing nonexisting csv file and expecting error message
