@@ -1,4 +1,4 @@
-## <center>TCL Workshop</center> 
+![image](https://github.com/user-attachments/assets/62a8ec9c-510d-43c2-8938-3a7bc67269e4)## <center>TCL Workshop</center> 
 In this workshop using Yosys and OpenTimer tools with TCL (for initial interface shell used) based programming.
 Analyzed Timing reports in the dashboard after Synthesis and Timing checks on given design.
 
@@ -9,60 +9,69 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 ## Module 1: Creating global unix file using shell scripting and to call TCL file
 
 - Starting Info: If no argv is there, it shoud provide info to use
-![image](https://github.com/user-attachments/assets/86f6226f-6654-4815-a151-ba6203c8b1fc)
+![image](https://github.com/user-attachments/assets/28e41fd5-e951-4c5f-9886-aa2d0f61d99c)
 
 - Providing nonexisting csv file and expecting error message
-![image](https://github.com/user-attachments/assets/c7cdddee-6acf-472f-af85-b35a19688ce8)
+![image](https://github.com/user-attachments/assets/bb92fd91-ef76-48ab-b1f4-144ee38273cf)
 
 - -help info message
-![image](https://github.com/user-attachments/assets/1cb3de86-8f2e-4282-8e17-06908724061a)
+![image](https://github.com/user-attachments/assets/f34134b8-1604-40b0-8e33-755a3b406dff)
 
 - Checking for existence of collaterals
-![image](https://github.com/user-attachments/assets/3fe7f6b2-53e1-435e-a209-06c59899d3e4)
+![image](https://github.com/user-attachments/assets/6bc408eb-405f-4920-a32b-5dcf75287db5)
 
 - Printing Collaterals and Variable values info
-![image](https://github.com/user-attachments/assets/330d6fb3-4117-4318-bf61-8061e5b9288d)
+![image](https://github.com/user-attachments/assets/af1695ae-ccca-49d3-8950-1b71c2ebd507)
 
 - Collaterals and paths existence check
-![image](https://github.com/user-attachments/assets/33bdb8c2-c9b2-4235-adde-931bb1f4e19c)
+![image](https://github.com/user-attachments/assets/b95a7139-a65e-42d1-9c0b-dccbea766af6)
 
 - Analysing input constraints CSV/.xls file.
   - This will help to understand where clocks, inputs, outputs sections are starting and their starting location (Getting Row & Column info properly)
-![image](https://github.com/user-attachments/assets/60ad5241-c611-40d8-9816-dacf50984083)
+![image](https://github.com/user-attachments/assets/b3a93d1a-65f4-42d8-88ce-613b97b6829c)
+
 
 ## Module 2: ********* SDC Formatting started ***********
 
  ### Clocks Section
  #### Main theme: Creation of SDC cons for all clocks in the design
 - Strategy used for grepping clock info, uniquifying ports, duty cycle forming and printing info:
-![image](https://github.com/user-attachments/assets/d69bf7be-057a-4acc-9a6d-3125a10173fe)
+![image](https://github.com/user-attachments/assets/bf4edd3c-b5d8-489d-88a3-707885f936ab)
+
 
 - Clocks SDC formatting info:
-![image](https://github.com/user-attachments/assets/d837c81d-fd7a-4f73-a451-018a79cd6a53)
+![image](https://github.com/user-attachments/assets/d9a39a37-1f01-4422-8638-25debd75672a)
+
 
 ### Input ports section 
 #### Main theme: Segregation of bussed and non-bussed ports of the design, uniquifying ports and broadcasting respective input port values in SDC cons 
 
 - Input ports formatting code: (Did mistake my reopening output file and faced missing of few lines and debugged later based on observation)
-![image](https://github.com/user-attachments/assets/5b45a046-ec74-4a69-bbc8-f1f3e459430f)
+![image](https://github.com/user-attachments/assets/80911ca5-2201-4766-a772-1871b87f61ff)
+![image](https://github.com/user-attachments/assets/e099e646-4d89-4978-8856-2224faafa06f)
+
 
 - **Issue faced** - SDC some lines are missing: (both for input and output ports)
-![image](https://github.com/user-attachments/assets/d241a8d8-b24b-44d4-911d-a5108354eea4)
+![image](https://github.com/user-attachments/assets/6e7802e1-655e-4a49-aea7-c0677226f78a)
+
 
 - Opened sdc file again for writing in input and output sdc formating code, so faced above error.
-![image](https://github.com/user-attachments/assets/0fbca738-6de9-4034-b6fa-3db441a1c812)
+![image](https://github.com/user-attachments/assets/45e08922-1e91-4bc8-9107-6d138282df23)
 
 - **After fixing the code** : (Input ports)
-![image](https://github.com/user-attachments/assets/1f61cd67-6209-415a-95d7-da2b9613bec7)
+![image](https://github.com/user-attachments/assets/eae17753-0719-4c44-92e5-fe7cc4fde992)
+
 
 ### Output ports section 
 #### Main theme: Segregation of bussed and non-bussed ports of the design, uniquifying ports and broadcasting respective Output port values in SDC cons
 
 - Output ports bussed and non-bussed identification as like input ports 
-![image](https://github.com/user-attachments/assets/73e9ccd4-63f2-48bf-907f-76b32f00a26a)
+![image](https://github.com/user-attachments/assets/393d68fe-bfc0-426a-99f0-ff688e435e86)
+![image](https://github.com/user-attachments/assets/05d6f1bd-03fd-4e3d-8b88-32e7385b4b65)
+![image](https://github.com/user-attachments/assets/7c478e11-74b7-4c47-91d9-b869a1f15ad5)
 
 - Output ports sdc formatting:
-![image](https://github.com/user-attachments/assets/c9c5cf97-697c-4ae5-a736-670d5f1e54b7)
+![image](https://github.com/user-attachments/assets/70a0d7b8-e343-43eb-b75c-e72edb65ef1d)
 
 ###             ********* SDC Formatting Completed ***********
 
@@ -70,33 +79,38 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 ## Module 3: ********* Design Hierarchy check using Yosys Tool ***********
 
 - Yosys Tool Hierarchy Identification code:
-![image](https://github.com/user-attachments/assets/643dd02e-7d0c-4fac-bb4e-8eb9659975f5)
+![image](https://github.com/user-attachments/assets/240db06f-83f1-4963-8773-3c45ec651373)
 
 - Yosys Hierarchy check status:
-![image](https://github.com/user-attachments/assets/caaf79bd-b8ee-40fa-b0f1-d99c3c8bb711)
+![image](https://github.com/user-attachments/assets/daeac574-9347-4489-97d3-5accb7488dea)
+
 
 ### ********* Design Hierarchy check using Yosys Tool completed ***********
 
 ## Module 4: ********* YOSYS: Main Synthesis starts **********
 
 - Yosys Synthesis commands for given verilog code 
-![image](https://github.com/user-attachments/assets/942f2861-211a-4390-94c0-9ccc4641e27b)
+![image](https://github.com/user-attachments/assets/e173b772-8bbf-4555-adb8-6b824bc054fe)
+
 
 - Hacking code for Output NETLIST manipulation for Opentimer tool compatability:
-![image](https://github.com/user-attachments/assets/41881b39-da4c-41b1-9f51-0026640df679)
+![image](https://github.com/user-attachments/assets/713623c5-1429-483f-b4e8-b47048c71c31)
+
 
 - Synthesis Running:
-![image](https://github.com/user-attachments/assets/3b69be68-ff9c-4b56-822d-e951f8ff666b)
+![image](https://github.com/user-attachments/assets/fcf0cb93-c8d8-44ea-92f3-c4c1ff1d8c69)
 
 ### Synthesis completed successfully
-![image](https://github.com/user-attachments/assets/82a4b8e9-2f14-4a39-85ce-0d6ed874013c)
+![image](https://github.com/user-attachments/assets/8ffca41c-f284-451b-97c6-6607f59832f8)
+
 
 ###  ********* YOSYS: Main Synthesis Completed **********
 
 ## Module 5: ********* OpenTimer: Timing starts **********
 
 - Calling multiple procs for usage:
-![image](https://github.com/user-attachments/assets/5ea37d3a-56c9-4547-a786-9a470c57afcb)
+![image](https://github.com/user-attachments/assets/83a26ef8-bcb3-488a-af20-aec98e4f92e9)
+
 
 - Faced output ports open timing format issue creation, so updated proc to pick proper values 
   - **Reason for this failure:** I have dumped sdc in different order so based on that I created proc to pic proper values)
@@ -117,10 +131,10 @@ TCL (Tool Command Language) is a high-level, interpreted scripting language know
 ## Module 6: ********* QOR Dash board creation *********
 
 - Grepping different info like WNS, Wost_slack (hold, setup), instance count from Open-Timer STA reports
-![image](https://github.com/user-attachments/assets/49f9e064-7243-4d27-b509-e7183ae25b3f)
+![image](https://github.com/user-attachments/assets/dc52e172-8644-4846-8238-62d16f96011f)
 
 - Code for Dashboard creation:
-![image](https://github.com/user-attachments/assets/81c9f94c-e6d7-4bb3-8d08-1d2ff864df07)
+![image](https://github.com/user-attachments/assets/0a145faf-c885-4db5-9fba-9c1cd83667a9)
 
 ### ********* QOR Dash board creation completed *********
 
